@@ -1,0 +1,11 @@
+.welcome-screen {
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: white;
+	border-radius: 4px;
+	padding: 1rem;
+}
+
+.welcome-screen:hover {
+	box-shadow: 0 0 20px 1px white;
+}

@@ -47,6 +47,16 @@ table {
 	border-spacing: 0;
 }
 
+html, body {
+	width: 100vw;
+	height: 100vh;
+}
+
 body {
 	background-color: steelblue;
+}
+
+* {
+	font-family: sans-serif;
+	box-sizing: border-box;
 }

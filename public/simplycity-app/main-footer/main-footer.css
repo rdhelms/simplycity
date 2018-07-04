@@ -1,0 +1,25 @@
+.main-footer {
+	background-color: slategrey;
+	position: absolute;
+	bottom: 0;
+	padding: 1rem;
+	width: 100%;
+}
+
+.main-footer__link-list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-footer__link {
+	color: white;
+	border: 1px solid white;
+	border-radius: 4px;
+	padding: 1rem;
+	cursor: pointer;
+}
+
+.main-footer__link:hover {
+	color: slategrey;
+	background-color: white;
+}

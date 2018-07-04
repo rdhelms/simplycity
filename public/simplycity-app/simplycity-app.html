@@ -4,17 +4,21 @@
 	</style>
 
 	<head>
-		<!-- Component HTMl imports -->
+		<!-- Component imports -->
+			<!-- main-header -->
 		<link rel="import" href="./simplycity-app/main-header/main-header.html">
-		<link rel="import" href="./simplycity-app/main-body/main-body.html">
-		<link rel="import" href="./simplycity-app/main-footer/main-footer.html">
-		<!-- Component JS imports -->
 		<script src="./simplycity-app/main-header/main-header.js"></script>
+			<!-- main-body -->
+		<link rel="import" href="./simplycity-app/main-body/main-body.html">
 		<script src="./simplycity-app/main-body/main-body.js"></script>
+			<!-- main-footer -->
+		<link rel="import" href="./simplycity-app/main-footer/main-footer.html">
 		<script src="./simplycity-app/main-footer/main-footer.js"></script>
 	</head>
 	
-	<main-header></main-header>
-	<main-body></main-body>
-	<main-footer></main-footer>
+	<div class="simplycity-app">
+		<main-header></main-header>
+		<main-body></main-body>
+		<main-footer></main-footer>
+	</div>
 </template>
