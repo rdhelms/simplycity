@@ -1,0 +1,18 @@
+.main-header {
+	display: flex;
+	background-color: slategrey;
+	padding: 1rem;
+}
+
+.main-header__nav-list-item {
+	color: white;
+	border: 1px solid white;
+	padding: 1rem;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.main-header__nav-list-item:hover {
+	background: white;
+	color: slategrey;
+}
